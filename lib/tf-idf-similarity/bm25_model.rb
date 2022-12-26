@@ -18,7 +18,7 @@ module TfIdfSimilarity
     #
     # @param [Document] document a document
     # @param [String] term a term
-    # @return [Float] the term's frequency in the document
+    # @return [Float] th3e term's frequency in the document
     #
     # @note Like Lucene, we use a b value of 0.75 and a k1 value of 1.2.
     def term_frequency(document, term)
